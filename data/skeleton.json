@@ -1,0 +1,4 @@
+{
+    "V": ["user_id","movie_title", "rating", "genre", "release_date", "age", "gender", "occupation"],
+    "E": [["occupation", "rating"],["gender","rating"],["age","rating"],["age","occupation"],["gender","occupation"],["genre","movie_title"],["movie_title","rating"]]
+}
